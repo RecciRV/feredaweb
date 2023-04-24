@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "build-css": "autoprefixer -o dist/styles.css src/styles.css"
+  },
+  "autoprefixer": {
+    "remove": false
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11"
+  ]
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>René JH</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <script src="slider.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+
+        <div class="menu container">
+            <!-- Aqui en class logo es el icono o logo que va en el encabezado de lado izquierdo (en el tuto decia LOGO)-->
+            <a href="#" class="logo">FEREDA</a>
+
+
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu-btn.png" class="menu-icono" alt="" width="50" height="50">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+   </header>
+        <div class="header-content container">
+
+       
+            <img id="imginicio" src="images/fotodeinicio.jpeg"  alt="" >
+        </div>
+
+        <section class="slogan-section">
+            <div class="slogan">
+			<p>Cubriendo tus sueños con nuestra experiencia</p>
+		</div>
+
+        </section>
+        
+        <section class="cotizaya">
+           
+            <h1>FEREDA TU MEJOR OPCIÓN</h1> <br>
+            <p>Cotiza ahora</p><br>
+            <button>Cotizar</button>
+        
+        </section>
+    <main class="services container">
+        <div class="fila1">
+        <div class="mi-div">
+            <div class="imagen">
+              <img src="images/calidad.png" alt="">
+            </div>
+            <div class="texto">
+              <h2>Calidad</h2><br>
+              <p> Es necesario utilizar materiales de alta calidad y asegurar que la estructura esté diseñada y construida para resistir condiciones adversas y garantizar la seguridad de las personas. La mejora continua también es importante para mantener la calidad en todo momento. </p>
+            </div>
+          </div>
+
+          <div class="mi-div">
+            <div class="imagen">
+              <img src="images/lowprice.png" alt="">
+            </div>
+            <div class="texto">
+              <h2>Precios competitivos</h2><br>
+              <p> ofrecemos precios altamente competitivos sin comprometer la calidad de nuestros materiales y servicios, asegurando así una excelente relación costo-beneficio para nuestros clientes. </p>
+            </div>
+          </div>
+        </div>
+        <div class="fila2">
+          <div class="mi-div">
+            <div class="imagen">
+              <img src="images/exp.png" alt="">
+            </div>
+            <div class="texto">
+              <h2>Experiencia</h2><br>
+              <p> Nuestro equipo de profesionales altamente capacitados cuenta con el conocimiento y la experiencia necesaria para llevar a cabo proyectos de construcción de arcotechos de cualquier tamaño y complejidad con excelencia y eficiencia </p>
+            </div>
+          </div>
+
+          <div class="mi-div">
+            <div class="imagen">
+              <img src="images/confiar.png" alt="">
+            </div>
+            <div class="texto">
+              <h2>Seguridad</h2><br>
+              <p> la seguridad es nuestra prioridad número uno, por lo que tomamos medidas rigurosas de seguridad en cada etapa del proyecto, asegurando que se cumplan todos los estándares de seguridad y que se minimice cualquier riesgo potencial para nuestros trabajadores y clientes. </p>
+            </div>
+          </div>
+        </div>
+       
+    </main>
+
+    <section class="porfolios container">
+
+      <div class="container-slider">
+        <div class="slider" id="slider">
+
+          <div class="slider__section">
+            <img src="images/slideone.png" alt="" class="slider__img">
+          </div>
+
+          <div class="slider__section">
+            <img src="images/slidetwo.png" alt="" class="slider__img">
+          </div>
+
+          <div class="slider__section">
+            <img src="images/fotodeinicio.jpeg" alt="" class="slider__img">
+          </div>
+        </div>
+
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+
+          </section>
+        
+          <form id="cotizacion-form">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+          
+            <div class="form-group">
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" id="correo" name="correo" required>
+            </div>
+          
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" required>
+            </div>
+          
+            <div class="form-group">
+              <label for="presupuesto">Presupuesto:</label>
+              <input type="number" id="presupuesto" name="presupuesto" required>
+            </div>
+          
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+          
+            <button type="submit" id="enviar-btn">Enviar</button>
+          </form>
+          
+
+
+    <footer>
+        <div class="container">
+            <div class="info">
+                <div class="info-content">
+                    <div class="info-price">
+                        <h2>Costo</h2>
+                        <p class="price">$3500</p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolorum ab iure itaque
+                            adipisci nam tempore odio sint. Quod soluta recusandae dolorum unde eaque reprehenderit
+                            veritatis possimus, laboriosam repellendus odit!
+                        </p>
+                    </div>
+                    <div class="info-txt">
+                        <h2>Princing list</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veritatis quos illo quaerat
+                            assumenda temporibus eum! Officiis eligendi laboriosam et! Distinctio, nobis vero. Animi
+                            minima dolores, amet culpa deserunt voluptatem.
+                        </p>
+                        <a href="#" class="btn-1">Información</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="enlaces">
+                    <h3>Logo</h3>
+                    <div class="enlace">
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

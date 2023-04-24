@@ -1,0 +1,780 @@
+/* MARGIN-TOP Y TODO ESO SIRVE PARA DEJAR ESPACIADOS ENTRE COSAS.   */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-transform: capitalize;
+text-decoration: none;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url(images/backpag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header{
+  background-color: #02595e;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.site-header.small {
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.site-header.small .menu{
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo{
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #000000;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icon{
+    width: 25px;
+
+}
+
+.menu label{
+cursor: pointer;
+display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.content{
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1{
+    color: #ffffff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+    text-align: center;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+}
+#imginicio {
+    margin-left: -125px;
+    text-align: center;
+    z-index: -1;
+    align-items: center;
+    height: 750px;
+    width:  20000px;
+    background-image: url("images/fotodeinicio.jpeg");
+    margin-top: 100px;
+    transform: scaleX(1.2);
+    -webkit-transform: scaleX(1.2);
+    -moz-transform: scaleX(1.2);
+    -ms-transform: scaleX(1.2);
+    -o-transform: scaleX(1.2);
+}
+.btn-1{
+
+    display: inline-block;  
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 1px rgba(0, 0, 0, 0.616);
+    margin: 35px -55px 0px 82px;
+    text-align: center;
+    padding: 15px 25px;
+    color: #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  
+}
+
+.btn-1:hover {
+    background-color: #a3a3a3 ;
+}
+
+/* SERVICES 
+(LAS CAJAS DE SERVICIOS SON ESTE APARTADO - EN DONDE HAYA CAJAS CON SERVICIOS CASI HASTA ARRIBA DE LA PAGINA)
+*/
+
+.services{
+    padding: 10px 0px;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.service{
+    padding: 35px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+}
+/* Este .service img es para subir los circulos con imagen un poco mas arriba de la caja osea que se salgan de ella */
+.service img {
+    margin-top: -50px;
+    
+}
+
+.imagen{
+    height: 150px; /* Ajusta la altura de la imagen según tus necesidades */
+    
+    padding: 20px;  
+    
+}
+.imagen img {
+   height: 100px; 
+    object-fit: cover; /* Para ajustar la imagen a la altura del contenedor */
+    
+    
+  }
+/*Aquí es el sector de calidad,experiencia,seguridad,precio */
+  .mi-div{
+    padding: 50px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+    width: 500px;
+  height: 480px;
+  margin-bottom: 40px;
+  }
+
+  .texto{
+text-align: justify;
+margin: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .texto h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.service h3 {
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+
+}
+
+.service p{
+    color: #525254;
+    font-size: 16px;
+    text-justify: inter-word;
+  word-spacing: 3px;
+
+}
+
+.porfolios {
+    padding: 80px 0px;
+    text-align: center;
+    color: #0E0E0E;
+}
+
+.porfolios h2{
+    font-size: 31px;
+}
+
+.porfolio {
+   display: flex;
+   align-items: center;
+   margin-bottom: 70px;
+   background-color: rgb(2, 89, 94);
+   margin: 20px;
+   border-radius:20px;
+}
+
+.porfolio img{
+    width: 250px;
+
+}
+
+.porfolio-1{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.porfolio-1 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+
+.porfolio-1 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+
+.porfolio-2{
+    text-align: left;
+    margin-right: 100px;
+}
+
+.porfolio-2 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+
+.porfolio-2 p{
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: /*Arriba y abajo*/ 15px /*izquierda y derecha*/25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #7042B5;
+    color: #ffffff;
+}
+/* CAMBIO DE COLOR AL PASAR EL MOUSE EN EL BOTON*/
+.btn-2:hover{
+    background-color: #a1a1a1;
+}
+
+footer{
+    padding: 200px 0px 30px 0px;
+    background-image: url(images/footer.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-content{
+    display: flex;
+}
+
+.info-price{
+    padding: 35px;
+    text-align: center;
+    background-color: #F5F5F5;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    margin: 0px 150px 0px 0px;
+    color: #0E0E0E;
+}
+
+.info-price h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.price{
+    font-size: 14px;
+    color: #0EAEF3;
+    margin-bottom: 10px;
+}
+
+.info-price p{
+    font-size: 16px;
+    color: #525254;
+}
+
+.info-txt{
+    margin-left: 35px;
+    color: #ffffff;
+}
+
+hr{
+    margin: 45px 0px;
+    border: 0.5px solid #AAB1FF;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.enlaces h3{
+    font-size: 25px;
+}
+
+.enlace {
+    display: flex;
+}
+
+.enlace li a {
+    display: block;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.enlace li a:hover {
+    color: #0EAEF3;
+}
+
+/* AQUI INICIA LA MANERA PARA HACER LA PAGINA RESPONSIVE */
+
+/*CUANDO SE BAJE LA RESOLUCION DE PANTALLA A 991PX SE APLICARA ESTO*/
+@media(max-width:991px){
+
+    .mi-div{
+        height: 530px;
+        width:  430px;
+    }
+
+    .texto{
+        overflow-x: hidden;
+        
+    }
+
+    #imginicio {
+        margin-left: -125px;
+        text-align: center;
+        z-index: -1;
+        align-items: center;
+        height: 600px;
+        width:  505px;
+        background-image: url("images/fotodeinicio.jpeg");
+        margin-top: 100px;
+        transform: scaleX(1.2);
+        -webkit-transform: scaleX(1.2);
+        -moz-transform: scaleX(1.2);
+        -ms-transform: scaleX(1.2);
+        -o-transform: scaleX(1.2);
+    }
+
+    .slogan-section .slogan{
+        font-size: 20px;
+        text-align: center;
+    }
+    .cotizaya h1{
+        font-size: 10px;
+    }
+
+.menu{
+    padding: 20px;
+}
+
+.menu label{
+    display: initial;
+}
+
+.menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #04676e;
+    display: none;
+    
+
+}
+.menu .navbar ul li{
+    width: 100%;
+}
+/*este icono (~) se pone con alt + 126 */
+#menu:checked ~ .navbar {
+    display: initial;
+}
+header {
+    height: 0vh;
+    padding: 45px 0px;
+    background-position: center center;
+   
+}
+
+
+.header-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.content{
+    padding: 0px;
+}
+
+.content h1{
+    margin-top: 100px;
+    font-size: 45px;
+    
+}
+
+.content p{
+    margin-top: 0px;
+
+}
+
+.header-content img{
+    width: 10px;
+
+}
+
+.services{
+    flex-direction: column;
+    padding: 50px 30px 0px 30px;
+}
+
+.service{
+    margin-bottom: 50px; 
+}
+
+
+.porfolios{
+    padding: 0px 30px 30px 30px;
+}
+
+.porfolios h2{
+    margin-bottom: 15px;
+}
+
+.porfolio {
+    flex-direction: column;
+}
+
+.porfolio img{
+    display: none;
+}
+
+.porfolio-1{
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+.porfolio-2{
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+
+footer{
+    padding: 0px 30px 30px 30px;
+}
+
+.info-content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-price{
+    margin: 0px 0px 20px 0px;
+}
+
+.info-txt{
+    margin: 0px;
+}
+
+hr {
+    margin: 25px 0px;
+}
+
+.enlaces{
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlace {
+    flex-direction: column;
+}
+}
+
+/* AQUI YA NO ES PARTE DEL @MEDIA */
+.slogan {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slide-in 1s ease-in-out forwards;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: #1b1b1b;
+    background-size: cover;
+    color: #fff;
+    font-size: 28px;
+ 
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #000;
+    -webkit-transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.slogan-section {
+    opacity: 0;
+  
+  }
+
+  /* Agrega una transición suave para la opacidad */
+  .slogan-section {
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Agrega opacidad 1 a la sección cuando esté en la pantalla */
+  .slogan-section.active {
+    opacity: 1;
+  }
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cotizaya{
+    text-align: center;
+    background-image: url('images/techos.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px;
+    position: relative;
+
+}
+
+.cotizaya h1,
+.cotizaya p,
+.cotiaz ya button{
+    position: relative;
+    z-index: 1;
+}
+
+.cotizaya h1{
+    color: white;
+    font-size: 20px;
+}
+
+.cotizaya p{
+    color: rgb(238, 255, 0);
+    font-size: 27px;
+    font-weight: bold;
+
+    
+}
+
+.cotizaya button{
+    margin-top: 20px;
+    background-color: #ffffff00;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: rgb(217, 255, 0);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cotizaya button:hover{
+    background-color: rgba(209, 171, 0, 0.788);
+}
+
+#seccion-2 {
+    display: none;
+  }
+
+  /* SLIDE */
+
+  .container-slider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+                position: relative;
+  }
+
+  .slider{
+    display: flex;
+    width: 400%;
+    height: 400px;
+    margin-left: -100%;
+  }
+
+  .slider__section{
+    width: 25%;
+    height: auto;
+    text-align: center;
+  }
+
+  .slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+  .slider__btn:hover{
+    background: #fff;
+  }
+
+  .slider__btn--left{
+left: 10px;
+  }
+
+  .slider__btn--right{
+    right: 10px;
+  }
+
+  /* FORMULARIO PARA COTIZAR */
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
