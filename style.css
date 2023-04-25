@@ -400,15 +400,9 @@ hr{
 /*CUANDO SE BAJE LA RESOLUCION DE PANTALLA A 991PX SE APLICARA ESTO*/
 @media(max-width:991px){
 
-    #mainclass {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
     .mi-div{
         height: 530px;
-        width:  430px;
+        width:  100%;
     }
 
     .texto{
@@ -417,19 +411,10 @@ hr{
     }
 
     #imginicio {
-        margin-left: -125px;
-        text-align:center;
-        z-index: -1;
-        align-items:center;
-        height: 400px;
-        width:auto;
-        background-image: url("images/fotodeinicio.jpeg");
-        margin-top: 100px;
-        transform: scaleX(1.2);
-        -webkit-transform: scaleX(1.2);
-        -moz-transform: scaleX(1.2);
-        -ms-transform: scaleX(1.2);
-        -o-transform: scaleX(1.2);
+      max-width: 100%;
+      height: auto;
+       
+       
     }
 
     .slogan-section .slogan{
