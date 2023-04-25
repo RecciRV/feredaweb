@@ -15,6 +15,8 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+
+
 body{
     background-color: #ffffff;
     background-image: url(images/backpag.png);
@@ -103,10 +105,14 @@ header{
     display: none;
 }
 
-.menu-icon{
-    width: 25px;
+.menu-icono{ 
+    width: 45px;
+    padding: 5px;
+    margin-top: 2px;
 
 }
+
+
 
 .menu label{
 cursor: pointer;
@@ -417,11 +423,13 @@ hr{
     }
 
 .menu{
-    padding: 20px;
+    padding: 0px 15px;
+    top: 1px;
 }
 
 .menu label{
     display: initial;
+    
 }
 
 .menu .navbar {
@@ -441,9 +449,9 @@ hr{
 #menu:checked ~ .navbar {
     display: initial;
 }
-header {
+.site-header {
     height: 0vh;
-    padding: 45px 0px;
+    padding: 27px 0px;
     background-position: center center;
    
 }
