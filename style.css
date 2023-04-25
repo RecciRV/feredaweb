@@ -152,6 +152,8 @@ display: none;
     -moz-transform: scaleX(1.2);
     -ms-transform: scaleX(1.2);
     -o-transform: scaleX(1.2);
+
+    
 }
 .btn-1{
 
@@ -409,12 +411,12 @@ hr{
     }
 
     #imginicio {
-        margin-left: -125px;
-        text-align: center;
+        /*margin-left: -125px;*/
+        text-align:center;
         z-index: -1;
-        align-items: center;
-        height: 600px;
-        width:  555px;
+        align-items:center;
+        height: 400px;
+        width:  500px;
         background-image: url("images/fotodeinicio.jpeg");
         margin-top: 100px;
         transform: scaleX(1.2);
@@ -737,44 +739,4 @@ left: 10px;
     right: 10px;
   }
 
-  /* FORMULARIO PARA COTIZAR */
-
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  select {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0069d9;
-  }
-  
+ 
