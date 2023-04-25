@@ -2,7 +2,7 @@ window.addEventListener('scroll', function() {
     var header = document.querySelector('.site-header');
     var scrollPosition = window.scrollY;
     
-    if (scrollPosition > 40) {
+    if (scrollPosition > 30) {
       header.classList.add('small');
     } else {
       header.classList.remove('small');
