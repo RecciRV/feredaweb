@@ -411,12 +411,12 @@ hr{
     }
 
     #imginicio {
-        /*margin-left: -125px;*/
+        *margin-left: -125px;
         text-align:center;
         z-index: -1;
         align-items:center;
         height: 400px;
-        width:  100%;
+        width:  50px;
         background-image: url("images/fotodeinicio.jpeg");
         margin-top: 100px;
         transform: scaleX(1.2);
