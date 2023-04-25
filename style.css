@@ -400,6 +400,13 @@ hr{
 /*CUANDO SE BAJE LA RESOLUCION DE PANTALLA A 991PX SE APLICARA ESTO*/
 @media(max-width:991px){
 
+    #mainclass{
+        align-items: center;
+        background-size: cover;
+    padding: 150px;
+    position: relative;
+    }
+
     .mi-div{
         height: 530px;
         width:  430px;
