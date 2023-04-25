@@ -400,6 +400,13 @@ hr{
 /*CUANDO SE BAJE LA RESOLUCION DE PANTALLA A 991PX SE APLICARA ESTO*/
 @media(max-width:991px){
 
+    .all{
+        align-items: center;
+        width: auto;
+        height: auto;
+        position: absolute;
+    }
+
     #mainclass {
         flex-direction: column;
         justify-content: center;
