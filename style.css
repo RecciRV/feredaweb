@@ -29,7 +29,7 @@ header{
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -44,16 +44,16 @@ header{
 }
 
 .site-header.small {
- height: 60px;
+ height: 70px;
  display: flex;
  justify-content: center;
  align-items: center;
 
 }
-
+/* AQUI SE CAMBIA LA POSICION DE EL CONTENIDO DEL HEADER OJO: SE CAMBIA PARA RESPONSIVE Y PARA PAGINA NORMAL CUIDADO */
 .site-header.small .menu{
     position: absolute;
-    top: -6px;
+    top: 10px;
     left: 0;
     right: 0;
     display: flex;
@@ -70,7 +70,7 @@ header{
 
 .menu {
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0;
     right: 0;
     display: flex;
@@ -78,9 +78,9 @@ header{
     justify-content: space-between;
     z-index: 1000;
 }
-
+/*CAMBIAR EL TAMAÑO Y TODO DEL ICONO (AHORITA ESTA COMO FEREDA EN HEADER)*/
 .menu .logo{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
     color: #ffffff;
 }
@@ -104,7 +104,7 @@ header{
 #menu{
     display: none;
 }
-
+/*cambia el tamaño de el icono del header*/
 .menu-icono{ 
     width: 45px;
     padding: 5px;
@@ -205,7 +205,6 @@ display: none;
 
 .imagen{
     height: 150px; /* Ajusta la altura de la imagen según tus necesidades */
-    
     padding: 20px;  
     
 }
@@ -415,8 +414,8 @@ hr{
 
 
     .slogan-section .slogan{
-        font-size: 20px;
-        text-align: center;
+        font-size: 14px;
+        text-align: justify;
     }
     .cotizaya h1{
         font-size: 10px;
@@ -424,7 +423,7 @@ hr{
 
 .menu{
     padding: 0px 15px;
-    top: 1px;
+    top: 6px;
 }
 
 .menu label{
@@ -449,8 +448,10 @@ hr{
 #menu:checked ~ .navbar {
     display: initial;
 }
+
+/* AQUI SE CAMBIA EL TAMAÑO DEL HEADER Y ETC*/
 .site-header {
-    height: 0vh;
+    height: 11vh;
     padding: 27px 0px;
     background-position: center center;
    
