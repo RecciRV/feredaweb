@@ -411,7 +411,9 @@ hr{
     }
 
     #imginicio {
-      width: 50%;
+        align-content: center;
+        align-items: center;
+      width: 100%;
       height: auto;
        
        
