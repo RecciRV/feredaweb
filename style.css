@@ -398,7 +398,7 @@ hr{
 /* AQUI INICIA LA MANERA PARA HACER LA PAGINA RESPONSIVE */
 
 /*CUANDO SE BAJE LA RESOLUCION DE PANTALLA A 991PX SE APLICARA ESTO*/
-@media(max-width:991px){
+@media(max-width:1000px){
 
     .mi-div{
         height: 530px;
